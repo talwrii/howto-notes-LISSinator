@@ -24,14 +24,26 @@ Some drawbacks of LISS
 * If motion is used in LISS, this motion can take you away from a single location that can be logistically complicated
 
 
-# The solution of this approach
+# Assumptions of the lissinator
+1. Some use of money and "tinkering" in order to help build habits
 
+Things that might need to be true about someone using the LISSinator approach
 
+1. Likes tweaking
+2. Has a reasonable amount of time (this perhaps does not work well for those with young children)
+3. Perhaps does not suit those who are highly competitive or social well.
 
 # When this approach could work well
-
 Work from home could help with the implementation of this task.
 
+
+# Treadmill
+I use the proform trainer 8.0. The sole characteristic for this treadmill was that it had a 10% incline and was less expensive than other treadmills.  It is produced by nordictrack - who unfortunately do not have open standards for extracting data from bluetooth. However, this has been reverse engineered by the qdomyous-zwift open source app. I bought this treadmill with a full expectation that I would have to install a zwift runn device for tracking (which my research suggested was a better strategy).
+
+If money.. and the need to move was no issue I would have bought a nordictrack device with a 40% angle.
+
+# Tracking treadmill use
+qdomyous-zwift can be set up to sync data to strava - an app to track cycling and running - which can be used for free. I then sync strava data to google sheets us the api for long term review and daily review.
 
 
 
