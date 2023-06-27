@@ -1,0 +1,14 @@
+[{"title": "lissinator-remote",
+"rules": [{
+  "description": "Control a mac with a remote control",
+  "type": "basic",
+  "manipulators": [
+    {
+       "from": {
+         "key_code": "1",
+         "modifiers": {"optional": ["any"]}},
+       "to": [
+          {"shell_command": "$HOME/LISSinator/mac-remote/move.sh 1"}]
+    }
+  ]}]}]
+
