@@ -45,6 +45,12 @@ If money.. and the need to move was no issue I would have bought a nordictrack d
 # Tracking treadmill use
 qdomyous-zwift can be set up to sync data to strava - an app to track cycling and running - which can be used for free. I then sync strava data to google sheets us the api for long term review and daily review.
 
+Tracking weight training
+
+I do a little weight training on the lissinator.  You could probably use a proper app for this. But as discussed in the motivations - messing with my phone is something I want to avoid doing. For this purposes I plan to use a task action combined with a keyboard mapper input. 
+
+
+
 # Things to do on the LISSinator
 
 Such choices are likely highly personal, and it may be a bad idea to do exactly as I do. There may however be some constraints on things that are interesting. 
