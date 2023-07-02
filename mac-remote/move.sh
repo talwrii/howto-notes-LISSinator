@@ -1,4 +1,6 @@
 #!/bin/sh
+PATH=$PATH:/usr/local/bin
+exec 2>/tmp/err
 hs <<EOF
 spaces = require("hs.spaces")
 -- move current window to the space sp

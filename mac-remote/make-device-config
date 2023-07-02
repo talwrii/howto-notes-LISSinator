@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+from pathlib import Path
+
+parser = argparse.ArgumentParser("Create a karabiner file the applies to one device")
+parser.add_argument('--vendor', type=int)
+parser.add_argument('--product', type=int)
+args = parser.parse_args()
+
+if not args.vendor and not args.product:
+    raise ValueError('Must pass --vendor and --product')
+
+with open("remote.karabiner.json") as stream:
+    data = json.load(stream)
+
+device_condition = { "type": "device_if", "identifiers": [ { "vendor_id": args.vendor, "product_id": args.product}]} 
+
+for binding in data["rules"][0]["manipulators"]:
+    binding["conditions"] = [device_condition]
+
+out_file = Path("remote.device.karabiner.json").resolve()
+with open(out_file, "w") as stream:
+    stream.write(json.dumps(data, indent=True))
+
+print("Created karabiner file. Run the following to import")
+print(f"open karabiner://karabiner/assets/complex_modifications/import?url=file://{out_file}")
+print("Remember to delete old rules in karabiner if rerunning (Click add rule and delete old rule)")
+

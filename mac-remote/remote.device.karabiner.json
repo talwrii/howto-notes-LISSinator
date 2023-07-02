@@ -1,0 +1,94 @@
+{
+ "title": "lissinator-remote",
+ "rules": [
+  {
+   "description": "Bindings to switch screen with a given keyboard",
+   "manipulators": [
+    {
+     "type": "basic",
+     "from": {
+      "key_code": "1",
+      "modifiers": {
+       "mandatory": [],
+       "optional": [
+        "any"
+       ]
+      }
+     },
+     "to": [
+      {
+       "shell_command": "$HOME/LISSinator/mac-remote/move.sh 1"
+      }
+     ],
+     "conditions": [
+      {
+       "type": "device_if",
+       "identifiers": [
+        {
+         "vendor_id": 1452,
+         "product_id": 556
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "basic",
+     "from": {
+      "key_code": "2",
+      "modifiers": {
+       "mandatory": [],
+       "optional": [
+        "any"
+       ]
+      }
+     },
+     "to": [
+      {
+       "shell_command": "$HOME/LISSinator/mac-remote/move.sh 2"
+      }
+     ],
+     "conditions": [
+      {
+       "type": "device_if",
+       "identifiers": [
+        {
+         "vendor_id": 1452,
+         "product_id": 556
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "basic",
+     "from": {
+      "key_code": "3",
+      "modifiers": {
+       "mandatory": [],
+       "optional": [
+        "any"
+       ]
+      }
+     },
+     "to": [
+      {
+       "shell_command": "$HOME/LISSinator/mac-remote/move.sh 3"
+      }
+     ],
+     "conditions": [
+      {
+       "type": "device_if",
+       "identifiers": [
+        {
+         "vendor_id": 1452,
+         "product_id": 556
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

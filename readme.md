@@ -55,7 +55,9 @@ On my LISSinator I have both musical instruments and drama television.
 
 
 
+#Remote control for mac
+Using a treadmill means that it is often difficult to type. A solution
+we propose here is using a handheld keyboard as a remote control.
 
-
-
-
+## Switching desktops
+We use hammerspoon for this

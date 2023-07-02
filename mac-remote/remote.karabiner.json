@@ -1,14 +1,53 @@
-[{"title": "lissinator-remote",
+{"title": "lissinator-remote",
 "rules": [{
-  "description": "Control a mac with a remote control",
-  "type": "basic",
-  "manipulators": [
-    {
-       "from": {
+    "description": "Bindings to switch screen with a given keyboard",
+    "manipulators": [{
+        "type": "basic",
+        "from": {
          "key_code": "1",
-         "modifiers": {"optional": ["any"]}},
-       "to": [
-          {"shell_command": "$HOME/LISSinator/mac-remote/move.sh 1"}]
-    }
-  ]}]}]
+         "modifiers": {
+          "mandatory": [],
+          "optional": [
+           "any"
+          ]
+         }
+        },
+        "to": [
+         {
+          "shell_command": "$HOME/LISSinator/mac-remote/move.sh 1"
+          }
+        ]},
+       {
+        "type": "basic",
+        "from": {
+         "key_code": "2",
+         "modifiers": {
+          "mandatory": [],
+          "optional": [
+           "any"
+          ]
+         }
+        },
+        "to": [
+         {
+          "shell_command": "$HOME/LISSinator/mac-remote/move.sh 2"
+          }
+        ]},
+       {
+        "type": "basic",
+        "from": {
+         "key_code": "3",
+         "modifiers": {
+          "mandatory": [],
+          "optional": [
+           "any"
+          ]
+         }
+        },
+        "to": [
+         {
+          "shell_command": "$HOME/LISSinator/mac-remote/move.sh 3"
+          }
+        ]}
+      ]}]}
 
