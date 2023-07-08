@@ -23,6 +23,9 @@ Some drawbacks of LISS
 * Can be relatively boring compared to other exercises
 * If motion is used in LISS, this motion can take you away from a single location that can be logistically complicated
 
+# Principles
+
+When bored do something else.
 
 # Assumptions of the lissinator
 1. Some use of money and "tinkering" in order to help build habits
@@ -36,7 +39,6 @@ Things that might need to be true about someone using the LISSinator approach
 # When this approach could work well
 Work from home could help with the implementation of this task.
 
-
 # Treadmill
 I use the proform trainer 8.0. The sole characteristic for this treadmill was that it had a 10% incline and was less expensive than other treadmills.  It is produced by nordictrack - who unfortunately do not have open standards for extracting data from bluetooth. However, this has been reverse engineered by the qdomyous-zwift open source app. I bought this treadmill with a full expectation that I would have to install a zwift runn device for tracking (which my research suggested was a better strategy).
 
@@ -49,19 +51,29 @@ Tracking weight training
 
 I do a little weight training on the lissinator.  You could probably use a proper app for this. But as discussed in the motivations - messing with my phone is something I want to avoid doing. For this purposes I plan to use a task action combined with a keyboard mapper input. 
 
-
-
 # Things to do on the LISSinator
-
 Such choices are likely highly personal, and it may be a bad idea to do exactly as I do. There may however be some constraints on things that are interesting. 
 
 ## Consumption and performance
 On my LISSinator I have both musical instruments and drama television.
 
+# Remote control for mac
+See [mac remote](mac-remote/readme.md) for this.
 
-#Remote control for mac
 Using a treadmill means that it is often difficult to type. A solution
 we propose here is using a handheld keyboard as a remote control. The idea is that the handheld keyboard can be held while doing the treadmill allowing for freer motion.
 
 ## Switching desktops
 We use hammerspoon together with a the bluetooth keyboard and a binding for this in karabiner. 
+
+## Language learning
+I use Language Reactor to do this, together with netflix (or youtube) this allows you to consume content with notes.
+
+## Learning sheet music
+
+# Screens
+I found that I often wanted to both consume content to learn a language while also interacting with sheet music or taking notes and did not want to "lose my place" in the media I was consuming. For this purpose I bought a second "portable screen". These are relatively inexpensive and the form of the screen is similar to a laptop - allowing the screen to be kept on the LISSinators mdf headboard.
+
+As part of the remote control. I had some bindings to switch a desktop on one screen and one on another.
+
+
