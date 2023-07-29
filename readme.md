@@ -57,23 +57,34 @@ Such choices are likely highly personal, and it may be a bad idea to do exactly 
 ## Consumption and performance
 On my LISSinator I have both musical instruments and drama television.
 
-# Remote control for mac
+# Using a computer
+
+I am using a mac computer both as a virtual guitar pedal and to learn language
+
+I had originally 
+
+## Remote control for mac
 See [mac remote](mac-remote/readme.md) for this.
 
 Using a treadmill means that it is often difficult to type. A solution
 we propose here is using a handheld keyboard as a remote control. The idea is that the handheld keyboard can be held while doing the treadmill allowing for freer motion.
 
+I originally used a "Rii New Dual Mode Wireless Multimedia Keyboard with Touchpad Mouse I4" with a mac. But later moved on to the older Rii X8 wireless keyboard without bluetooh since I had one spare and wanted to use the bluetooth keyboard for an android device. 
+
 ## Switching desktops
 We use hammerspoon together with a the bluetooth keyboard and a binding for this in karabiner. 
 
-## Language learning
+# Language learning
 I use Language Reactor to do this, together with netflix (or youtube) this allows you to consume content with notes.
 
 ## Learning sheet music
+[Main page](https://github.com/talwrii/learn-sight-reading-through-improv-and-musescore)
+
+I tried using muse score to learn music by creating it as a played. However muse scores had some issues with the reliability of midi input so I am trialing Sibelius.
+
+Muse score has a large a large library of sheet music.
 
 # Screens
 I found that I often wanted to both consume content to learn a language while also interacting with sheet music or taking notes and did not want to "lose my place" in the media I was consuming. For this purpose I bought a second "portable screen". These are relatively inexpensive and the form of the screen is similar to a laptop - allowing the screen to be kept on the LISSinators mdf headboard.
 
 As part of the remote control. I had some bindings to switch a desktop on one screen and one on another.
-
-
