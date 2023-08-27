@@ -58,10 +58,7 @@ Such choices are likely highly personal, and it may be a bad idea to do exactly 
 On my LISSinator I have both musical instruments and drama television.
 
 # Using a computer
-
 I am using a mac computer both as a virtual guitar pedal and to learn language
-
-I had originally 
 
 ## Remote control for mac
 See [mac remote](mac-remote/readme.md) for this.
@@ -75,7 +72,7 @@ I originally used a "Rii New Dual Mode Wireless Multimedia Keyboard with Touchpa
 We use hammerspoon together with a the bluetooth keyboard and a binding for this in karabiner. 
 
 # Language learning
-I use Language Reactor to do this, together with netflix (or youtube) this allows you to consume content with notes.
+I use [Language Reactor](https://www.languagereactor.com/) to do this, together with netflix (or youtube) this allows you to consume content with notes.
 
 ## Learning sheet music
 [Main page](https://github.com/talwrii/learn-sight-reading-through-improv-and-musescore)
