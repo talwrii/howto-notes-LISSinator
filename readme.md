@@ -44,10 +44,30 @@ I use the proform trainer 8.0. The sole characteristic for this treadmill was th
 
 If money.. and the need to move was no issue I would have bought a nordictrack device with a 40% angle.
 
-# Tracking treadmill use
+## Treadmill design
+I found a large headboard valuable for musical and language learning purposes. 
+
+## Tracking treadmill use
 qdomyous-zwift can be set up to sync data to strava - an app to track cycling and running - which can be used for free. I then sync strava data to google sheets us the api for long term review and daily review.
 
-Tracking weight training
+## Treadmill maintenance 
+
+A broken treadmill is a pain. My experience was that a repair took 8 working todays (14 days) in total, and to some degree you are beholdent to your warranty providers timescale - though there are clauses about reasonability.
+
+I am unsure what parts of treadmill maintenance are voodoo or cargo cult and to what degree part failure is to be expected. 
+
+But various advice I had found included:
+
+- Opening and hoovering the motor every month
+- Not starting the treadmill while standing on it or changing speed
+- Unplugging the treadmill after use
+- Not plugging a treadmill into an extension lead (my suspicion was that this was minimizing liability in case of faulty extension leads)
+
+It is to some degree possibility to "go around" a warranty provider though this may void a warranty... and it is unclear how open the "parts" market is - though I did find second hard parts on ebay.  Hearsay is that control boards are more likely to fail than motors. In the UK I found people who would repair boards. [Treadmill doctor was one provider](https://www.treadmilldoctor.co.uk/the-treadmill-doctor-can-repair-95-of-treadmills/).
+
+You may consider renting - though over more than a half year period this exceeds the price of owning a treadmill. The minimum rental period I could find was 8 weeks - it remains to be seen whether the repair cycle for rented treadmill is faster - but there may be more an incentive to repair treadmills in a timely fashion given your ability to not renew services.
+
+# Tracking weight training
 
 I do a little weight training on the lissinator.  You could probably use a proper app for this. But as discussed in the motivations - messing with my phone is something I want to avoid doing. For this purposes I plan to use a task action combined with a keyboard mapper input. 
 
